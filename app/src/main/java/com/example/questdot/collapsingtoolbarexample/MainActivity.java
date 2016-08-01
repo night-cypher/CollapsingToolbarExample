@@ -15,7 +15,7 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
 
 
-    private RecyclerView rv;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,12 +24,6 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        rv = (RecyclerView)findViewById(R.id.my_recycler_view);
-
-
-        rv.setLayoutManager(new LinearLayoutManager(this));
-
-        rv.setAdapter(new MyAdapter());
 
 
 
